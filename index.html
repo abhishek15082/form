@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Home</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <!--
+      Need a visual blank slate?
+      Remove all code in `styles.css`!
+    -->
+    <link rel="stylesheet" href="styles.css" />
+    <script type="module" src="script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+  <div class="container">
+    <h1>Registration Form </h1>
+    <div class="form-container">
+      <form>
+        <div class="input-name">
+          <i class="fa  fa-user lock"></i>
+          <input type="text" placeholder="First Name"  class="name">
+          <span>
+            <i class="fa  fa-user lock"></i>
+            <input type="text" placeholder="Last Name"  class="name">
+          </span>
+        </div>
+
+        <div class="input-name">
+          <i class="fa fa-envelope"></i>
+          <input type="email" placeholder="Enter Your Email" class="email-text"> 
+        </div>
+
+        <div class="input-name">
+          <i class="fa fa-lock"></i>
+          <input
+            type="password"
+            placeholder="Enter your password"
+            class="pass-text"
+          />
+        </div>
+
+        <div class="input-name">
+          <i class="fa fa-lock"></i>
+          <input
+            type="password"
+            placeholder="Confirm password"
+            class="pass-text"
+          />
+        </div>
+        <div class="input-name">
+          <input type="radio" class="radio-btn" name="gen">
+          <label>Male</label>
+          <input type="radio"  class="radio-btn "name="gen" >
+          <label>Female</label>
+        </div>
+
+        <div class="input-name">
+          
+            <select class=country id="">
+              <option value="">Select a Country</option>
+              <option value="India">India</option>
+              <option value="Pakistan">Pakistan</option>
+              <option value="">Bhutan</option>
+              <option value="Nepal">Nepal</option>
+            </select>
+            <div class="arrow"></div>
+          </div>
+      
+          <div class="input-name">
+          <input type="checkbox" class="check-box">
+          <label>I accept term and Condition</label>
+          </div>
+
+          <div class="input-name
+          ">
+            <input type="button" value=Register class="sub-button">
+          </div>
+      </form>
+    </div>
+  </div>
+  </body>
+</html>
